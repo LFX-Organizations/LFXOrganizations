@@ -4,9 +4,13 @@
   "description": "LFX Organizations",
   "main": "api/server.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node api/server.js",
+    "prettier:check": "prettier --check ."
   },
   "dependencies": {
     "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
